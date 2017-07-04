@@ -339,6 +339,10 @@ func callCommand(ctx context.Context, req cmds.Request, root *cmds.Command, cmd 
 	} else {
 		log.Debug("executing command locally")
 
+		if err := LoadPlugins(req.InvocContext().ConfigRoot); err != nil {
+			return nil, err
+		}
+
 		err := req.SetRootContext(ctx)
 		if err != nil {
 			return nil, err
@@ -665,3 +669,5 @@ func wrapContextCanceled(err error) error {
 	}
 	return err
 }
+
+var LoadPlugins = func(string) error { return nil }
