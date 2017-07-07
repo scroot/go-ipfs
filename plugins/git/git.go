@@ -4,18 +4,42 @@ import (
 	"compress/zlib"
 	"io"
 
-	"github.com/ipfs/go-cid"
 	"github.com/ipfs/go-ipfs/core/coredag"
-	git "github.com/ipfs/go-ipld-git"
+	"github.com/ipfs/go-ipfs/plugins"
+
+	"gx/ipfs/QmNw61A6sJoXMeP37mJRtQZdNhj5e3FdjoTN3v4FyE96Gk/go-cid"
 	"gx/ipfs/QmUBtPvHKFAX43XMsyxsYpMi3U5VwZ4jYFTo4kFhvAR33G/go-ipld-format"
+	git "gx/ipfs/QmdZKFV1ppRwGi5VQixitK5V2ihkDXyFckxaotPgXknHv4/go-ipld-git"
 )
 
-var PluginType = "ipld"
+var Plugins = []plugins.Plugin{
+	&GitPlugin{},
+}
 
-func Register(dec format.BlockDecoder) error {
+type GitPlugin struct{}
+
+var _ plugins.PluginIPLD = (*GitPlugin)(nil)
+
+func (*GitPlugin) Name() string {
+	return "ipld-git"
+}
+
+func (*GitPlugin) Version() string {
+	return "0.0.1"
+}
+
+func (*GitPlugin) Init() error {
+	return nil
+}
+
+func (*GitPlugin) RegisterBlockDecoders(dec format.BlockDecoder) error {
 	dec[cid.GitRaw] = git.DecodeBlock
-	coredag.DefaultInputEncParsers.AddParser("raw", "git", parseRawGit)
-	coredag.DefaultInputEncParsers.AddParser("zlib", "git", parseZlibGit)
+	return nil
+}
+
+func (*GitPlugin) RegisterInputEncParsers(iec coredag.InputEncParsers) error {
+	iec.AddParser("raw", "git", parseRawGit)
+	iec.AddParser("zlib", "git", parseZlibGit)
 	return nil
 }
 

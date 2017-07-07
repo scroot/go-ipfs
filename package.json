@@ -436,6 +436,12 @@
       "hash": "QmXxGS5QsUxpR3iqL5DjmsYPHR1Yz74siRQ4ChJqWFosMh",
       "name": "go-block-format",
       "version": "0.1.2"
+    },
+    {
+      "author": "whyrusleeping",
+      "hash": "QmdZKFV1ppRwGi5VQixitK5V2ihkDXyFckxaotPgXknHv4",
+      "name": "go-ipld-git",
+      "version": "0.0.0"
     }
   ],
   "gxVersion": "0.10.0",
