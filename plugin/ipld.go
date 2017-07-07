@@ -1,4 +1,4 @@
-package plugins
+package plugin
 
 import (
 	"github.com/ipfs/go-ipfs/core/coredag"

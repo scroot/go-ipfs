@@ -1,4 +1,4 @@
-package plugins
+package plugin
 
 // Plugin is base interface for all kinds of go-ipfs plugins
 // It will be included in interfaces of different Plugins
