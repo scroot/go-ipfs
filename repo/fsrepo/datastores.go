@@ -3,6 +3,7 @@ package fsrepo
 import (
 	"bytes"
 	"fmt"
+	"os"
 	"path/filepath"
 
 	repo "github.com/ipfs/go-ipfs/repo"
@@ -13,10 +14,9 @@ import (
 	ds "gx/ipfs/QmVSase1JP7cq9QkPT46oNwdp9pT6kBkG3oqS14y3QcZjG/go-datastore"
 	mount "gx/ipfs/QmVSase1JP7cq9QkPT46oNwdp9pT6kBkG3oqS14y3QcZjG/go-datastore/syncmount"
 
-	badgerds "github.com/ipfs/go-ds-badger"
 	levelds "gx/ipfs/QmPdvXuXWAR6gtxxqZw42RtSADMwz4ijVmYHGS542b6cMz/go-ds-leveldb"
+	badgerds "gx/ipfs/QmT2Ktqcj8AMQsNwWEcoB8476mjgRR1Pony5Rw73yA2LV5/go-ds-badger"
 	ldbopts "gx/ipfs/QmbBhyDKsY4mbY6xsKt3qu9Y7FPvMJ6qbD8AMjYYvPRw1g/goleveldb/leveldb/opt"
-	"os"
 )
 
 // ConfigFromMap creates a new datastore config from a map
@@ -292,7 +292,7 @@ func (c measureDatastoreConfig) Create(path string) (repo.Datastore, error) {
 }
 
 type badgerdsDatastoreConfig struct {
-	path        string
+	path string
 }
 
 func BadgerdsDatastoreConfig(params map[string]interface{}) (DatastoreConfig, error) {
