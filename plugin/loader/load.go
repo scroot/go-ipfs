@@ -13,5 +13,16 @@ var loadPluginsFunc = func(string) ([]plugin.Plugin, error) {
 }
 
 func LoadPlugins(pluginDir string) ([]plugin.Plugin, error) {
-	return loadPluginsFunc(pluginDir)
+	pls, err := loadPluginsFunc(pluginDir)
+	if err != nil {
+		return nil, err
+	}
+
+	err = initalize(pls)
+	if err != nil {
+		return nil, err
+	}
+
+	err = run(pls)
+	return nil, err
 }

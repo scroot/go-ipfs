@@ -11,6 +11,7 @@ import (
 	"net/url"
 	"os"
 	"os/signal"
+	"path/filepath"
 	"runtime/pprof"
 	"strings"
 	"sync"
@@ -22,6 +23,7 @@ import (
 	cmdsHttp "github.com/ipfs/go-ipfs/commands/http"
 	core "github.com/ipfs/go-ipfs/core"
 	coreCmds "github.com/ipfs/go-ipfs/core/commands"
+	"github.com/ipfs/go-ipfs/plugin/loader"
 	repo "github.com/ipfs/go-ipfs/repo"
 	config "github.com/ipfs/go-ipfs/repo/config"
 	fsrepo "github.com/ipfs/go-ipfs/repo/fsrepo"
@@ -339,7 +341,8 @@ func callCommand(ctx context.Context, req cmds.Request, root *cmds.Command, cmd 
 	} else {
 		log.Debug("executing command locally")
 
-		if err := LoadPlugins(req.InvocContext().ConfigRoot); err != nil {
+		pluginpath := filepath.Join(req.InvocContext().ConfigRoot, "plugins")
+		if _, err := loader.LoadPlugins(pluginpath); err != nil {
 			return nil, err
 		}
 
@@ -669,5 +672,3 @@ func wrapContextCanceled(err error) error {
 	}
 	return err
 }
-
-var LoadPlugins = func(string) error { return nil }
