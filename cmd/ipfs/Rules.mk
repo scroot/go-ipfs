@@ -12,7 +12,7 @@ PATH := $(realpath $(d)):$(PATH)
 # DEPS_OO_$(d) += merkledag/pb/merkledag.pb.go namesys/pb/namesys.pb.go
 # DEPS_OO_$(d) += pin/internal/pb/header.pb.go unixfs/pb/unixfs.pb.go
 
-$(d)_flags =-ldflags="-X "github.com/ipfs/go-ipfs/repo/config".CurrentCommit=$(shell git rev-parse --short HEAD)" 
+$(d)_flags =-ldflags="-X "github.com/scroot/go-ipfs/repo/config".CurrentCommit=$(shell git rev-parse --short HEAD)"
 
 $(IPFS_BIN_$(d)): GOFLAGS += $(cmd/ipfs_flags)
 
