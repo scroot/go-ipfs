@@ -8,7 +8,7 @@ import (
 	"os/exec"
 	"strings"
 
-	cmds "github.com/ipfs/go-ipfs/commands"
+	cmds "github.com/scroot/go-ipfs/commands"
 )
 
 func ExternalBinary() *cmds.Command {

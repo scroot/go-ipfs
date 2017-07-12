@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ipfs/go-ipfs/commands"
+	"github.com/scroot/go-ipfs/commands"
 )
 
 type kvs map[string]interface{}

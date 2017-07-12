@@ -7,13 +7,13 @@ import (
 	"sort"
 	"text/tabwriter"
 
-	cmds "github.com/ipfs/go-ipfs/commands"
-	core "github.com/ipfs/go-ipfs/core"
-	merkledag "github.com/ipfs/go-ipfs/merkledag"
-	path "github.com/ipfs/go-ipfs/path"
-	unixfs "github.com/ipfs/go-ipfs/unixfs"
-	uio "github.com/ipfs/go-ipfs/unixfs/io"
-	unixfspb "github.com/ipfs/go-ipfs/unixfs/pb"
+	cmds "github.com/scroot/go-ipfs/commands"
+	core "github.com/scroot/go-ipfs/core"
+	merkledag "github.com/scroot/go-ipfs/merkledag"
+	path "github.com/scroot/go-ipfs/path"
+	unixfs "github.com/scroot/go-ipfs/unixfs"
+	uio "github.com/scroot/go-ipfs/unixfs/io"
+	unixfspb "github.com/scroot/go-ipfs/unixfs/pb"
 )
 
 type LsLink struct {

@@ -3,7 +3,7 @@ package set
 import (
 	"testing"
 
-	bu "github.com/ipfs/go-ipfs/blocks/blocksutil"
+	bu "github.com/scroot/go-ipfs/blocks/blocksutil"
 
 	cid "gx/ipfs/Qma4RJSuh7mMeJQYCqMbKzekn6EwBo7HEs5AQYjVRMQATB/go-cid"
 )

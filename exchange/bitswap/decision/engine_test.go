@@ -9,9 +9,9 @@ import (
 	"testing"
 
 	context "context"
-	blockstore "github.com/ipfs/go-ipfs/blocks/blockstore"
-	message "github.com/ipfs/go-ipfs/exchange/bitswap/message"
-	testutil "github.com/ipfs/go-ipfs/thirdparty/testutil"
+	blockstore "github.com/scroot/go-ipfs/blocks/blockstore"
+	message "github.com/scroot/go-ipfs/exchange/bitswap/message"
+	testutil "github.com/scroot/go-ipfs/thirdparty/testutil"
 	ds "gx/ipfs/QmVSase1JP7cq9QkPT46oNwdp9pT6kBkG3oqS14y3QcZjG/go-datastore"
 	dssync "gx/ipfs/QmVSase1JP7cq9QkPT46oNwdp9pT6kBkG3oqS14y3QcZjG/go-datastore/sync"
 	blocks "gx/ipfs/QmXxGS5QsUxpR3iqL5DjmsYPHR1Yz74siRQ4ChJqWFosMh/go-block-format"

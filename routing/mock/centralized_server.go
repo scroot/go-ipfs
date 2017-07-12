@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ipfs/go-ipfs/thirdparty/testutil"
+	"github.com/scroot/go-ipfs/thirdparty/testutil"
 
 	ds "gx/ipfs/QmVSase1JP7cq9QkPT46oNwdp9pT6kBkG3oqS14y3QcZjG/go-datastore"
 	dssync "gx/ipfs/QmVSase1JP7cq9QkPT46oNwdp9pT6kBkG3oqS14y3QcZjG/go-datastore/sync"

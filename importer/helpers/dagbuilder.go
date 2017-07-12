@@ -4,10 +4,10 @@ import (
 	"io"
 	"os"
 
-	"github.com/ipfs/go-ipfs/commands/files"
-	"github.com/ipfs/go-ipfs/importer/chunk"
-	dag "github.com/ipfs/go-ipfs/merkledag"
-	ft "github.com/ipfs/go-ipfs/unixfs"
+	"github.com/scroot/go-ipfs/commands/files"
+	"github.com/scroot/go-ipfs/importer/chunk"
+	dag "github.com/scroot/go-ipfs/merkledag"
+	ft "github.com/scroot/go-ipfs/unixfs"
 
 	node "gx/ipfs/QmPAKbSsgEX5B6fpmxa61jXYnoWzZr5sNafd3qgPiSH8Uv/go-ipld-format"
 	cid "gx/ipfs/Qma4RJSuh7mMeJQYCqMbKzekn6EwBo7HEs5AQYjVRMQATB/go-cid"

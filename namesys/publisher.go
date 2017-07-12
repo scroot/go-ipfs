@@ -7,12 +7,12 @@ import (
 	"fmt"
 	"time"
 
-	dag "github.com/ipfs/go-ipfs/merkledag"
-	pb "github.com/ipfs/go-ipfs/namesys/pb"
-	path "github.com/ipfs/go-ipfs/path"
-	pin "github.com/ipfs/go-ipfs/pin"
-	dshelp "github.com/ipfs/go-ipfs/thirdparty/ds-help"
-	ft "github.com/ipfs/go-ipfs/unixfs"
+	dag "github.com/scroot/go-ipfs/merkledag"
+	pb "github.com/scroot/go-ipfs/namesys/pb"
+	path "github.com/scroot/go-ipfs/path"
+	pin "github.com/scroot/go-ipfs/pin"
+	dshelp "github.com/scroot/go-ipfs/thirdparty/ds-help"
+	ft "github.com/scroot/go-ipfs/unixfs"
 
 	ci "gx/ipfs/QmP1DfoUjiWH2ZBo1PBH6FupdBucbDepx3HpWmEY6JMUpY/go-libp2p-crypto"
 	routing "gx/ipfs/QmP1wMAqk6aZYRZirbaAwmrNeqFRgQrwBt3orUtvSa1UYD/go-libp2p-routing"

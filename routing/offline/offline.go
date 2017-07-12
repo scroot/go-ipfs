@@ -5,7 +5,7 @@ import (
 	"errors"
 	"time"
 
-	dshelp "github.com/ipfs/go-ipfs/thirdparty/ds-help"
+	dshelp "github.com/scroot/go-ipfs/thirdparty/ds-help"
 
 	ci "gx/ipfs/QmP1DfoUjiWH2ZBo1PBH6FupdBucbDepx3HpWmEY6JMUpY/go-libp2p-crypto"
 	routing "gx/ipfs/QmP1wMAqk6aZYRZirbaAwmrNeqFRgQrwBt3orUtvSa1UYD/go-libp2p-routing"

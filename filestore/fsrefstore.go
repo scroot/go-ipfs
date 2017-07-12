@@ -7,10 +7,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ipfs/go-ipfs/blocks/blockstore"
-	pb "github.com/ipfs/go-ipfs/filestore/pb"
-	dshelp "github.com/ipfs/go-ipfs/thirdparty/ds-help"
-	posinfo "github.com/ipfs/go-ipfs/thirdparty/posinfo"
+	"github.com/scroot/go-ipfs/blocks/blockstore"
+	pb "github.com/scroot/go-ipfs/filestore/pb"
+	dshelp "github.com/scroot/go-ipfs/thirdparty/ds-help"
+	posinfo "github.com/scroot/go-ipfs/thirdparty/posinfo"
 	"gx/ipfs/QmXxGS5QsUxpR3iqL5DjmsYPHR1Yz74siRQ4ChJqWFosMh/go-block-format"
 
 	proto "gx/ipfs/QmT6n4mspWYEya864BhCUJEgyxiRfmiSY9ruQwTUNpRKaM/protobuf/proto"

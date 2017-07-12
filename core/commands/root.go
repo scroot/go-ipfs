@@ -4,11 +4,11 @@ import (
 	"io"
 	"strings"
 
-	cmds "github.com/ipfs/go-ipfs/commands"
-	dag "github.com/ipfs/go-ipfs/core/commands/dag"
-	files "github.com/ipfs/go-ipfs/core/commands/files"
-	ocmd "github.com/ipfs/go-ipfs/core/commands/object"
-	unixfs "github.com/ipfs/go-ipfs/core/commands/unixfs"
+	cmds "github.com/scroot/go-ipfs/commands"
+	dag "github.com/scroot/go-ipfs/core/commands/dag"
+	files "github.com/scroot/go-ipfs/core/commands/files"
+	ocmd "github.com/scroot/go-ipfs/core/commands/object"
+	unixfs "github.com/scroot/go-ipfs/core/commands/unixfs"
 	logging "gx/ipfs/QmSpJByNKFX1sCsHBEp3R73FL4NF6FnQTEGyNAXHm2GS52/go-log"
 )
 

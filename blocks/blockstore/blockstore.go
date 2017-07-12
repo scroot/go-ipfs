@@ -8,7 +8,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	dshelp "github.com/ipfs/go-ipfs/thirdparty/ds-help"
+	dshelp "github.com/scroot/go-ipfs/thirdparty/ds-help"
 	blocks "gx/ipfs/QmXxGS5QsUxpR3iqL5DjmsYPHR1Yz74siRQ4ChJqWFosMh/go-block-format"
 
 	logging "gx/ipfs/QmSpJByNKFX1sCsHBEp3R73FL4NF6FnQTEGyNAXHm2GS52/go-log"

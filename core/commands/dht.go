@@ -8,9 +8,9 @@ import (
 	"io"
 	"time"
 
-	cmds "github.com/ipfs/go-ipfs/commands"
-	dag "github.com/ipfs/go-ipfs/merkledag"
-	path "github.com/ipfs/go-ipfs/path"
+	cmds "github.com/scroot/go-ipfs/commands"
+	dag "github.com/scroot/go-ipfs/merkledag"
+	path "github.com/scroot/go-ipfs/path"
 
 	routing "gx/ipfs/QmP1wMAqk6aZYRZirbaAwmrNeqFRgQrwBt3orUtvSa1UYD/go-libp2p-routing"
 	notif "gx/ipfs/QmP1wMAqk6aZYRZirbaAwmrNeqFRgQrwBt3orUtvSa1UYD/go-libp2p-routing/notifications"

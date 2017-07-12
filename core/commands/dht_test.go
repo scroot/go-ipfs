@@ -3,8 +3,8 @@ package commands
 import (
 	"testing"
 
-	"github.com/ipfs/go-ipfs/namesys"
-	tu "github.com/ipfs/go-ipfs/thirdparty/testutil"
+	"github.com/scroot/go-ipfs/namesys"
+	tu "github.com/scroot/go-ipfs/thirdparty/testutil"
 )
 
 func TestKeyTranslation(t *testing.T) {

@@ -5,9 +5,9 @@ import (
 	"errors"
 	"fmt"
 
-	h "github.com/ipfs/go-ipfs/importer/helpers"
-	dag "github.com/ipfs/go-ipfs/merkledag"
-	ft "github.com/ipfs/go-ipfs/unixfs"
+	h "github.com/scroot/go-ipfs/importer/helpers"
+	dag "github.com/scroot/go-ipfs/merkledag"
+	ft "github.com/scroot/go-ipfs/unixfs"
 
 	node "gx/ipfs/QmPAKbSsgEX5B6fpmxa61jXYnoWzZr5sNafd3qgPiSH8Uv/go-ipld-format"
 )

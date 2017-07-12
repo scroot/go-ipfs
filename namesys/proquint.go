@@ -4,7 +4,7 @@ import (
 	"errors"
 
 	context "context"
-	path "github.com/ipfs/go-ipfs/path"
+	path "github.com/scroot/go-ipfs/path"
 	proquint "gx/ipfs/QmYnf27kzqR2cxt6LFZdrAFJuQd6785fTkBvMuEj9EeRxM/proquint"
 )
 

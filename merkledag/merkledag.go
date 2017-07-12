@@ -7,8 +7,8 @@ import (
 	"strings"
 	"sync"
 
-	bserv "github.com/ipfs/go-ipfs/blockservice"
-	offline "github.com/ipfs/go-ipfs/exchange/offline"
+	bserv "github.com/scroot/go-ipfs/blockservice"
+	offline "github.com/scroot/go-ipfs/exchange/offline"
 	blocks "gx/ipfs/QmXxGS5QsUxpR3iqL5DjmsYPHR1Yz74siRQ4ChJqWFosMh/go-block-format"
 
 	node "gx/ipfs/QmPAKbSsgEX5B6fpmxa61jXYnoWzZr5sNafd3qgPiSH8Uv/go-ipld-format"

@@ -3,9 +3,9 @@ package commands
 import (
 	"io"
 
-	cmds "github.com/ipfs/go-ipfs/commands"
-	core "github.com/ipfs/go-ipfs/core"
-	coreunix "github.com/ipfs/go-ipfs/core/coreunix"
+	cmds "github.com/scroot/go-ipfs/commands"
+	core "github.com/scroot/go-ipfs/core"
+	coreunix "github.com/scroot/go-ipfs/core/coreunix"
 
 	context "context"
 )

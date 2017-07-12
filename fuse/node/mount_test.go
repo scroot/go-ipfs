@@ -10,12 +10,12 @@ import (
 	"time"
 
 	context "context"
-	core "github.com/ipfs/go-ipfs/core"
-	ipns "github.com/ipfs/go-ipfs/fuse/ipns"
-	mount "github.com/ipfs/go-ipfs/fuse/mount"
-	namesys "github.com/ipfs/go-ipfs/namesys"
-	offroute "github.com/ipfs/go-ipfs/routing/offline"
-	ci "github.com/ipfs/go-ipfs/thirdparty/testutil/ci"
+	core "github.com/scroot/go-ipfs/core"
+	ipns "github.com/scroot/go-ipfs/fuse/ipns"
+	mount "github.com/scroot/go-ipfs/fuse/mount"
+	namesys "github.com/scroot/go-ipfs/namesys"
+	offroute "github.com/scroot/go-ipfs/routing/offline"
+	ci "github.com/scroot/go-ipfs/thirdparty/testutil/ci"
 )
 
 func maybeSkipFuseTests(t *testing.T) {

@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	blockstore "github.com/ipfs/go-ipfs/blocks/blockstore"
-	tn "github.com/ipfs/go-ipfs/exchange/bitswap/testnet"
-	datastore2 "github.com/ipfs/go-ipfs/thirdparty/datastore2"
-	delay "github.com/ipfs/go-ipfs/thirdparty/delay"
-	testutil "github.com/ipfs/go-ipfs/thirdparty/testutil"
+	blockstore "github.com/scroot/go-ipfs/blocks/blockstore"
+	tn "github.com/scroot/go-ipfs/exchange/bitswap/testnet"
+	datastore2 "github.com/scroot/go-ipfs/thirdparty/datastore2"
+	delay "github.com/scroot/go-ipfs/thirdparty/delay"
+	testutil "github.com/scroot/go-ipfs/thirdparty/testutil"
 
 	ds "gx/ipfs/QmVSase1JP7cq9QkPT46oNwdp9pT6kBkG3oqS14y3QcZjG/go-datastore"
 	ds_sync "gx/ipfs/QmVSase1JP7cq9QkPT46oNwdp9pT6kBkG3oqS14y3QcZjG/go-datastore/sync"

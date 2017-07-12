@@ -50,10 +50,10 @@ RUN apk add --no-cache --virtual .build-deps-ipfs musl-dev gcc go git \
 	&& cd $SRC_PATH \
 	&& gx --verbose install --global \
 	&& mkdir .git/objects && commit=$(git rev-parse --short HEAD) \
-	&& echo "ldflags=-X github.com/ipfs/go-ipfs/repo/config.CurrentCommit=$commit" \
+	&& echo "ldflags=-X github.com/scroot/go-ipfs/repo/config.CurrentCommit=$commit" \
 	# Build and install IPFS and entrypoint script
 	&& cd $SRC_PATH/cmd/ipfs \
-	&& go build -ldflags "-X github.com/ipfs/go-ipfs/repo/config.CurrentCommit=$commit" \
+	&& go build -ldflags "-X github.com/scroot/go-ipfs/repo/config.CurrentCommit=$commit" \
 	&& cp ipfs /usr/local/bin/ipfs \
 	&& cp $SRC_PATH/bin/container_daemon /usr/local/bin/start_ipfs \
 	&& chmod 755 /usr/local/bin/start_ipfs \

@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	dag "github.com/ipfs/go-ipfs/merkledag"
-	mdtest "github.com/ipfs/go-ipfs/merkledag/test"
-	ft "github.com/ipfs/go-ipfs/unixfs"
+	dag "github.com/scroot/go-ipfs/merkledag"
+	mdtest "github.com/scroot/go-ipfs/merkledag/test"
+	ft "github.com/scroot/go-ipfs/unixfs"
 )
 
 func getNames(prefix string, count int) []string {

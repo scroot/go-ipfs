@@ -27,9 +27,9 @@ import (
 	"math/big"
 	"os"
 
-	dag "github.com/ipfs/go-ipfs/merkledag"
-	format "github.com/ipfs/go-ipfs/unixfs"
-	upb "github.com/ipfs/go-ipfs/unixfs/pb"
+	dag "github.com/scroot/go-ipfs/merkledag"
+	format "github.com/scroot/go-ipfs/unixfs"
+	upb "github.com/scroot/go-ipfs/unixfs/pb"
 
 	node "gx/ipfs/QmPAKbSsgEX5B6fpmxa61jXYnoWzZr5sNafd3qgPiSH8Uv/go-ipld-format"
 	proto "gx/ipfs/QmZ4Qi3GaRbjcx28Sme5eMH7RQjGkt8wHxt2a65oLaeFEV/gogo-protobuf/proto"

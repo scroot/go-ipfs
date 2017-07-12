@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	dag "github.com/ipfs/go-ipfs/merkledag"
-	mdtest "github.com/ipfs/go-ipfs/merkledag/test"
-	dagutils "github.com/ipfs/go-ipfs/merkledag/utils"
-	ft "github.com/ipfs/go-ipfs/unixfs"
+	dag "github.com/scroot/go-ipfs/merkledag"
+	mdtest "github.com/scroot/go-ipfs/merkledag/test"
+	dagutils "github.com/scroot/go-ipfs/merkledag/utils"
+	ft "github.com/scroot/go-ipfs/unixfs"
 )
 
 func shuffle(seed int64, arr []string) {

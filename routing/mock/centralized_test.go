@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	delay "github.com/ipfs/go-ipfs/thirdparty/delay"
-	"github.com/ipfs/go-ipfs/thirdparty/testutil"
+	delay "github.com/scroot/go-ipfs/thirdparty/delay"
+	"github.com/scroot/go-ipfs/thirdparty/testutil"
 
 	u "gx/ipfs/QmWbjfz3u6HkAdPh34dgPchGbQjob6LXLhAeCGii2TX69n/go-ipfs-util"
 	pstore "gx/ipfs/QmXZSd1qR5BxZkPyuwfT5jpqQFScZccoZvDneXsKzCNHWX/go-libp2p-peerstore"

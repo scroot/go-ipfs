@@ -7,9 +7,9 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ipfs/go-ipfs/blocks/blockstore"
-	dag "github.com/ipfs/go-ipfs/merkledag"
-	posinfo "github.com/ipfs/go-ipfs/thirdparty/posinfo"
+	"github.com/scroot/go-ipfs/blocks/blockstore"
+	dag "github.com/scroot/go-ipfs/merkledag"
+	posinfo "github.com/scroot/go-ipfs/thirdparty/posinfo"
 
 	ds "gx/ipfs/QmVSase1JP7cq9QkPT46oNwdp9pT6kBkG3oqS14y3QcZjG/go-datastore"
 	cid "gx/ipfs/Qma4RJSuh7mMeJQYCqMbKzekn6EwBo7HEs5AQYjVRMQATB/go-cid"

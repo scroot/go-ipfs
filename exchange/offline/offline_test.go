@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/ipfs/go-ipfs/blocks/blockstore"
-	"github.com/ipfs/go-ipfs/blocks/blocksutil"
+	"github.com/scroot/go-ipfs/blocks/blockstore"
+	"github.com/scroot/go-ipfs/blocks/blocksutil"
 	blocks "gx/ipfs/QmXxGS5QsUxpR3iqL5DjmsYPHR1Yz74siRQ4ChJqWFosMh/go-block-format"
 
 	ds "gx/ipfs/QmVSase1JP7cq9QkPT46oNwdp9pT6kBkG3oqS14y3QcZjG/go-datastore"

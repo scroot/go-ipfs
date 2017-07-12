@@ -5,11 +5,11 @@ import (
 	"testing"
 
 	context "context"
-	bsmsg "github.com/ipfs/go-ipfs/exchange/bitswap/message"
-	bsnet "github.com/ipfs/go-ipfs/exchange/bitswap/network"
-	mockrouting "github.com/ipfs/go-ipfs/routing/mock"
-	delay "github.com/ipfs/go-ipfs/thirdparty/delay"
-	testutil "github.com/ipfs/go-ipfs/thirdparty/testutil"
+	bsmsg "github.com/scroot/go-ipfs/exchange/bitswap/message"
+	bsnet "github.com/scroot/go-ipfs/exchange/bitswap/network"
+	mockrouting "github.com/scroot/go-ipfs/routing/mock"
+	delay "github.com/scroot/go-ipfs/thirdparty/delay"
+	testutil "github.com/scroot/go-ipfs/thirdparty/testutil"
 	blocks "gx/ipfs/QmXxGS5QsUxpR3iqL5DjmsYPHR1Yz74siRQ4ChJqWFosMh/go-block-format"
 	peer "gx/ipfs/QmdS9KpbDyPrieswibZhkod1oXqRwZJrUPzxCofAMWpFGq/go-libp2p-peer"
 )

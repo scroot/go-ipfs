@@ -6,9 +6,9 @@ import (
 	"io/ioutil"
 	"strings"
 
-	cmds "github.com/ipfs/go-ipfs/commands"
-	path "github.com/ipfs/go-ipfs/path"
-	pin "github.com/ipfs/go-ipfs/pin"
+	cmds "github.com/scroot/go-ipfs/commands"
+	path "github.com/scroot/go-ipfs/path"
+	pin "github.com/scroot/go-ipfs/pin"
 
 	node "gx/ipfs/QmPAKbSsgEX5B6fpmxa61jXYnoWzZr5sNafd3qgPiSH8Uv/go-ipld-format"
 	cid "gx/ipfs/Qma4RJSuh7mMeJQYCqMbKzekn6EwBo7HEs5AQYjVRMQATB/go-cid"

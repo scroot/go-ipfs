@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"os"
 
-	dag "github.com/ipfs/go-ipfs/merkledag"
-	pi "github.com/ipfs/go-ipfs/thirdparty/posinfo"
-	ft "github.com/ipfs/go-ipfs/unixfs"
+	dag "github.com/scroot/go-ipfs/merkledag"
+	pi "github.com/scroot/go-ipfs/thirdparty/posinfo"
+	ft "github.com/scroot/go-ipfs/unixfs"
 
 	node "gx/ipfs/QmPAKbSsgEX5B6fpmxa61jXYnoWzZr5sNafd3qgPiSH8Uv/go-ipld-format"
 	cid "gx/ipfs/Qma4RJSuh7mMeJQYCqMbKzekn6EwBo7HEs5AQYjVRMQATB/go-cid"

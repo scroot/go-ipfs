@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ipfs/go-ipfs/commands/files"
-	bal "github.com/ipfs/go-ipfs/importer/balanced"
-	"github.com/ipfs/go-ipfs/importer/chunk"
-	h "github.com/ipfs/go-ipfs/importer/helpers"
-	trickle "github.com/ipfs/go-ipfs/importer/trickle"
-	dag "github.com/ipfs/go-ipfs/merkledag"
+	"github.com/scroot/go-ipfs/commands/files"
+	bal "github.com/scroot/go-ipfs/importer/balanced"
+	"github.com/scroot/go-ipfs/importer/chunk"
+	h "github.com/scroot/go-ipfs/importer/helpers"
+	trickle "github.com/scroot/go-ipfs/importer/trickle"
+	dag "github.com/scroot/go-ipfs/merkledag"
 
 	node "gx/ipfs/QmPAKbSsgEX5B6fpmxa61jXYnoWzZr5sNafd3qgPiSH8Uv/go-ipld-format"
 )

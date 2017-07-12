@@ -4,9 +4,9 @@ import (
 	"context"
 	"io"
 
-	coreiface "github.com/ipfs/go-ipfs/core/coreapi/interface"
-	coreunix "github.com/ipfs/go-ipfs/core/coreunix"
-	uio "github.com/ipfs/go-ipfs/unixfs/io"
+	coreiface "github.com/scroot/go-ipfs/core/coreapi/interface"
+	coreunix "github.com/scroot/go-ipfs/core/coreunix"
+	uio "github.com/scroot/go-ipfs/unixfs/io"
 
 	node "gx/ipfs/QmPAKbSsgEX5B6fpmxa61jXYnoWzZr5sNafd3qgPiSH8Uv/go-ipld-format"
 	cid "gx/ipfs/Qma4RJSuh7mMeJQYCqMbKzekn6EwBo7HEs5AQYjVRMQATB/go-cid"

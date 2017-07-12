@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	repo "github.com/ipfs/go-ipfs/repo"
+	repo "github.com/scroot/go-ipfs/repo"
 
 	routing "gx/ipfs/QmP1wMAqk6aZYRZirbaAwmrNeqFRgQrwBt3orUtvSa1UYD/go-libp2p-routing"
 	p2phost "gx/ipfs/QmUywuGNZoUKV8B9iyvup9bPkLiMrhTsyVMkeSXW5VxAfC/go-libp2p-host"

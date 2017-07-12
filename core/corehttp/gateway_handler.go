@@ -12,16 +12,16 @@ import (
 	"strings"
 	"time"
 
-	core "github.com/ipfs/go-ipfs/core"
-	coreapi "github.com/ipfs/go-ipfs/core/coreapi"
-	coreiface "github.com/ipfs/go-ipfs/core/coreapi/interface"
-	"github.com/ipfs/go-ipfs/importer"
-	chunk "github.com/ipfs/go-ipfs/importer/chunk"
-	dag "github.com/ipfs/go-ipfs/merkledag"
-	dagutils "github.com/ipfs/go-ipfs/merkledag/utils"
-	path "github.com/ipfs/go-ipfs/path"
-	ft "github.com/ipfs/go-ipfs/unixfs"
-	uio "github.com/ipfs/go-ipfs/unixfs/io"
+	core "github.com/scroot/go-ipfs/core"
+	coreapi "github.com/scroot/go-ipfs/core/coreapi"
+	coreiface "github.com/scroot/go-ipfs/core/coreapi/interface"
+	"github.com/scroot/go-ipfs/importer"
+	chunk "github.com/scroot/go-ipfs/importer/chunk"
+	dag "github.com/scroot/go-ipfs/merkledag"
+	dagutils "github.com/scroot/go-ipfs/merkledag/utils"
+	path "github.com/scroot/go-ipfs/path"
+	ft "github.com/scroot/go-ipfs/unixfs"
+	uio "github.com/scroot/go-ipfs/unixfs/io"
 
 	routing "gx/ipfs/QmP1wMAqk6aZYRZirbaAwmrNeqFRgQrwBt3orUtvSa1UYD/go-libp2p-routing"
 	node "gx/ipfs/QmPAKbSsgEX5B6fpmxa61jXYnoWzZr5sNafd3qgPiSH8Uv/go-ipld-format"
@@ -320,7 +320,7 @@ func (i *gatewayHandler) getOrHeadHandler(ctx context.Context, w http.ResponseWr
 	})
 
 	// construct the correct back link
-	// https://github.com/ipfs/go-ipfs/issues/1365
+	// https://github.com/scroot/go-ipfs/issues/1365
 	var backLink string = prefix + urlPath
 
 	// don't go further up than /ipfs/$hash/

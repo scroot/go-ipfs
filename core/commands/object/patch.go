@@ -5,12 +5,12 @@ import (
 	"io/ioutil"
 	"strings"
 
-	cmds "github.com/ipfs/go-ipfs/commands"
-	core "github.com/ipfs/go-ipfs/core"
-	dag "github.com/ipfs/go-ipfs/merkledag"
-	dagutils "github.com/ipfs/go-ipfs/merkledag/utils"
-	path "github.com/ipfs/go-ipfs/path"
-	ft "github.com/ipfs/go-ipfs/unixfs"
+	cmds "github.com/scroot/go-ipfs/commands"
+	core "github.com/scroot/go-ipfs/core"
+	dag "github.com/scroot/go-ipfs/merkledag"
+	dagutils "github.com/scroot/go-ipfs/merkledag/utils"
+	path "github.com/scroot/go-ipfs/path"
+	ft "github.com/scroot/go-ipfs/unixfs"
 	u "gx/ipfs/QmWbjfz3u6HkAdPh34dgPchGbQjob6LXLhAeCGii2TX69n/go-ipfs-util"
 )
 

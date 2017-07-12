@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
-	proxy "github.com/ipfs/go-ipfs/routing/supernode/proxy"
-	dshelp "github.com/ipfs/go-ipfs/thirdparty/ds-help"
+	proxy "github.com/scroot/go-ipfs/routing/supernode/proxy"
+	dshelp "github.com/scroot/go-ipfs/thirdparty/ds-help"
 
 	datastore "gx/ipfs/QmVSase1JP7cq9QkPT46oNwdp9pT6kBkG3oqS14y3QcZjG/go-datastore"
 	pb "gx/ipfs/QmWYCqr6UDqqD1bfRybaAPtbAqcN3TSJpveaBXMwbQ3ePZ/go-libp2p-record/pb"

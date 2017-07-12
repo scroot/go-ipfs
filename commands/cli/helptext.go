@@ -7,7 +7,7 @@ import (
 	"strings"
 	"text/template"
 
-	cmds "github.com/ipfs/go-ipfs/commands"
+	cmds "github.com/scroot/go-ipfs/commands"
 )
 
 const (

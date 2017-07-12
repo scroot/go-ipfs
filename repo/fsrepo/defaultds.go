@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"path"
 
-	repo "github.com/ipfs/go-ipfs/repo"
-	config "github.com/ipfs/go-ipfs/repo/config"
-	"github.com/ipfs/go-ipfs/thirdparty/dir"
+	repo "github.com/scroot/go-ipfs/repo"
+	config "github.com/scroot/go-ipfs/repo/config"
+	"github.com/scroot/go-ipfs/thirdparty/dir"
 
 	levelds "gx/ipfs/QmPdvXuXWAR6gtxxqZw42RtSADMwz4ijVmYHGS542b6cMz/go-ds-leveldb"
 	measure "gx/ipfs/QmSb95iHExSSb47zpmyn5CyY5PZidVWSjyKyDqgYQrnKor/go-ds-measure"

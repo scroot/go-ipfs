@@ -4,12 +4,12 @@ import (
 	"context"
 	"net"
 
-	commands "github.com/ipfs/go-ipfs/commands"
-	core "github.com/ipfs/go-ipfs/core"
-	"github.com/ipfs/go-ipfs/repo"
-	config "github.com/ipfs/go-ipfs/repo/config"
-	ds2 "github.com/ipfs/go-ipfs/thirdparty/datastore2"
-	testutil "github.com/ipfs/go-ipfs/thirdparty/testutil"
+	commands "github.com/scroot/go-ipfs/commands"
+	core "github.com/scroot/go-ipfs/core"
+	"github.com/scroot/go-ipfs/repo"
+	config "github.com/scroot/go-ipfs/repo/config"
+	ds2 "github.com/scroot/go-ipfs/thirdparty/datastore2"
+	testutil "github.com/scroot/go-ipfs/thirdparty/testutil"
 
 	ipnet "gx/ipfs/QmPsBptED6X43GYg3347TAUruN3UfsAhaGTP9xbinYX7uf/go-libp2p-interface-pnet"
 	mocknet "gx/ipfs/QmQA5mdxru8Bh6dpC9PJfSkumqnmHgJX7knxSgBo5Lpime/go-libp2p/p2p/net/mock"

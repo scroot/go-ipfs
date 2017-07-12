@@ -8,11 +8,11 @@ import (
 	"io/ioutil"
 	"testing"
 
-	imp "github.com/ipfs/go-ipfs/importer"
-	"github.com/ipfs/go-ipfs/importer/chunk"
-	mdag "github.com/ipfs/go-ipfs/merkledag"
-	mdagmock "github.com/ipfs/go-ipfs/merkledag/test"
-	ft "github.com/ipfs/go-ipfs/unixfs"
+	imp "github.com/scroot/go-ipfs/importer"
+	"github.com/scroot/go-ipfs/importer/chunk"
+	mdag "github.com/scroot/go-ipfs/merkledag"
+	mdagmock "github.com/scroot/go-ipfs/merkledag/test"
+	ft "github.com/scroot/go-ipfs/unixfs"
 
 	node "gx/ipfs/QmPAKbSsgEX5B6fpmxa61jXYnoWzZr5sNafd3qgPiSH8Uv/go-ipld-format"
 	u "gx/ipfs/QmWbjfz3u6HkAdPh34dgPchGbQjob6LXLhAeCGii2TX69n/go-ipfs-util"

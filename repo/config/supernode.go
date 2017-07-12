@@ -1,6 +1,6 @@
 package config
 
-import "github.com/ipfs/go-ipfs/thirdparty/ipfsaddr"
+import "github.com/scroot/go-ipfs/thirdparty/ipfsaddr"
 
 // TODO replace with final servers before merge
 

@@ -5,10 +5,10 @@ import (
 	"encoding/binary"
 	"testing"
 
-	blockstore "github.com/ipfs/go-ipfs/blocks/blockstore"
-	bserv "github.com/ipfs/go-ipfs/blockservice"
-	offline "github.com/ipfs/go-ipfs/exchange/offline"
-	dag "github.com/ipfs/go-ipfs/merkledag"
+	blockstore "github.com/scroot/go-ipfs/blocks/blockstore"
+	bserv "github.com/scroot/go-ipfs/blockservice"
+	offline "github.com/scroot/go-ipfs/exchange/offline"
+	dag "github.com/scroot/go-ipfs/merkledag"
 
 	ds "gx/ipfs/QmVSase1JP7cq9QkPT46oNwdp9pT6kBkG3oqS14y3QcZjG/go-datastore"
 	dsq "gx/ipfs/QmVSase1JP7cq9QkPT46oNwdp9pT6kBkG3oqS14y3QcZjG/go-datastore/query"

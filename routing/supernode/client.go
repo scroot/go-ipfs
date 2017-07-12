@@ -6,7 +6,7 @@ import (
 	"errors"
 	"time"
 
-	proxy "github.com/ipfs/go-ipfs/routing/supernode/proxy"
+	proxy "github.com/scroot/go-ipfs/routing/supernode/proxy"
 
 	routing "gx/ipfs/QmP1wMAqk6aZYRZirbaAwmrNeqFRgQrwBt3orUtvSa1UYD/go-libp2p-routing"
 	logging "gx/ipfs/QmSpJByNKFX1sCsHBEp3R73FL4NF6FnQTEGyNAXHm2GS52/go-log"

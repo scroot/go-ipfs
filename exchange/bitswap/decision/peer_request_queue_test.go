@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ipfs/go-ipfs/exchange/bitswap/wantlist"
-	"github.com/ipfs/go-ipfs/thirdparty/testutil"
+	"github.com/scroot/go-ipfs/exchange/bitswap/wantlist"
+	"github.com/scroot/go-ipfs/thirdparty/testutil"
 	u "gx/ipfs/QmWbjfz3u6HkAdPh34dgPchGbQjob6LXLhAeCGii2TX69n/go-ipfs-util"
 	cid "gx/ipfs/Qma4RJSuh7mMeJQYCqMbKzekn6EwBo7HEs5AQYjVRMQATB/go-cid"
 )

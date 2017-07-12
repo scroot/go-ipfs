@@ -1,8 +1,8 @@
 package bitswap
 
 import (
-	bsnet "github.com/ipfs/go-ipfs/exchange/bitswap/network"
-	"github.com/ipfs/go-ipfs/thirdparty/testutil"
+	bsnet "github.com/scroot/go-ipfs/exchange/bitswap/network"
+	"github.com/scroot/go-ipfs/thirdparty/testutil"
 	peer "gx/ipfs/QmdS9KpbDyPrieswibZhkod1oXqRwZJrUPzxCofAMWpFGq/go-libp2p-peer"
 )
 

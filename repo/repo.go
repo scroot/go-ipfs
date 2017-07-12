@@ -4,9 +4,9 @@ import (
 	"errors"
 	"io"
 
-	filestore "github.com/ipfs/go-ipfs/filestore"
-	keystore "github.com/ipfs/go-ipfs/keystore"
-	config "github.com/ipfs/go-ipfs/repo/config"
+	filestore "github.com/scroot/go-ipfs/filestore"
+	keystore "github.com/scroot/go-ipfs/keystore"
+	config "github.com/scroot/go-ipfs/repo/config"
 
 	ds "gx/ipfs/QmVSase1JP7cq9QkPT46oNwdp9pT6kBkG3oqS14y3QcZjG/go-datastore"
 	ma "gx/ipfs/QmcyqRMCAXVtYPS4DiBrA7sezL9rRGfW8Ctx7cywL4TXJj/go-multiaddr"

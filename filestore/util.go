@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/ipfs/go-ipfs/blocks/blockstore"
-	pb "github.com/ipfs/go-ipfs/filestore/pb"
-	dshelp "github.com/ipfs/go-ipfs/thirdparty/ds-help"
+	"github.com/scroot/go-ipfs/blocks/blockstore"
+	pb "github.com/scroot/go-ipfs/filestore/pb"
+	dshelp "github.com/scroot/go-ipfs/thirdparty/ds-help"
 
 	ds "gx/ipfs/QmVSase1JP7cq9QkPT46oNwdp9pT6kBkG3oqS14y3QcZjG/go-datastore"
 	dsq "gx/ipfs/QmVSase1JP7cq9QkPT46oNwdp9pT6kBkG3oqS14y3QcZjG/go-datastore/query"

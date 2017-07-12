@@ -7,7 +7,7 @@ import (
 	gopath "path"
 	"strings"
 
-	path "github.com/ipfs/go-ipfs/path"
+	path "github.com/scroot/go-ipfs/path"
 
 	node "gx/ipfs/QmPAKbSsgEX5B6fpmxa61jXYnoWzZr5sNafd3qgPiSH8Uv/go-ipld-format"
 )

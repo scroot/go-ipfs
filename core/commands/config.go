@@ -11,10 +11,10 @@ import (
 	"os/exec"
 	"strings"
 
-	cmds "github.com/ipfs/go-ipfs/commands"
-	repo "github.com/ipfs/go-ipfs/repo"
-	config "github.com/ipfs/go-ipfs/repo/config"
-	fsrepo "github.com/ipfs/go-ipfs/repo/fsrepo"
+	cmds "github.com/scroot/go-ipfs/commands"
+	repo "github.com/scroot/go-ipfs/repo"
+	config "github.com/scroot/go-ipfs/repo/config"
+	fsrepo "github.com/scroot/go-ipfs/repo/fsrepo"
 
 	u "gx/ipfs/QmWbjfz3u6HkAdPh34dgPchGbQjob6LXLhAeCGii2TX69n/go-ipfs-util"
 )

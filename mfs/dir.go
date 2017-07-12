@@ -10,10 +10,10 @@ import (
 	"sync"
 	"time"
 
-	dag "github.com/ipfs/go-ipfs/merkledag"
-	ft "github.com/ipfs/go-ipfs/unixfs"
-	uio "github.com/ipfs/go-ipfs/unixfs/io"
-	ufspb "github.com/ipfs/go-ipfs/unixfs/pb"
+	dag "github.com/scroot/go-ipfs/merkledag"
+	ft "github.com/scroot/go-ipfs/unixfs"
+	uio "github.com/scroot/go-ipfs/unixfs/io"
+	ufspb "github.com/scroot/go-ipfs/unixfs/pb"
 
 	node "gx/ipfs/QmPAKbSsgEX5B6fpmxa61jXYnoWzZr5sNafd3qgPiSH8Uv/go-ipld-format"
 	cid "gx/ipfs/Qma4RJSuh7mMeJQYCqMbKzekn6EwBo7HEs5AQYjVRMQATB/go-cid"

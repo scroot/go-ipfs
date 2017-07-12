@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"path"
 
-	dag "github.com/ipfs/go-ipfs/merkledag"
+	dag "github.com/scroot/go-ipfs/merkledag"
 
 	node "gx/ipfs/QmPAKbSsgEX5B6fpmxa61jXYnoWzZr5sNafd3qgPiSH8Uv/go-ipld-format"
 	cid "gx/ipfs/Qma4RJSuh7mMeJQYCqMbKzekn6EwBo7HEs5AQYjVRMQATB/go-cid"

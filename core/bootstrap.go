@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	config "github.com/ipfs/go-ipfs/repo/config"
-	math2 "github.com/ipfs/go-ipfs/thirdparty/math2"
+	config "github.com/scroot/go-ipfs/repo/config"
+	math2 "github.com/scroot/go-ipfs/thirdparty/math2"
 	lgbl "gx/ipfs/QmVesPmqbPp7xRGyY96tnBwzDtVV1nqv4SCVxo5zCqKyH8/go-libp2p-loggables"
 
 	context "context"

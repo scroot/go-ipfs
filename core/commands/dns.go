@@ -4,8 +4,8 @@ import (
 	"io"
 	"strings"
 
-	cmds "github.com/ipfs/go-ipfs/commands"
-	namesys "github.com/ipfs/go-ipfs/namesys"
+	cmds "github.com/scroot/go-ipfs/commands"
+	namesys "github.com/scroot/go-ipfs/namesys"
 	util "gx/ipfs/QmWbjfz3u6HkAdPh34dgPchGbQjob6LXLhAeCGii2TX69n/go-ipfs-util"
 )
 

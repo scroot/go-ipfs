@@ -3,7 +3,7 @@ package ipfsaddr
 import (
 	"testing"
 
-	path "github.com/ipfs/go-ipfs/path"
+	path "github.com/scroot/go-ipfs/path"
 	ma "gx/ipfs/QmcyqRMCAXVtYPS4DiBrA7sezL9rRGfW8Ctx7cywL4TXJj/go-multiaddr"
 	peer "gx/ipfs/QmdS9KpbDyPrieswibZhkod1oXqRwZJrUPzxCofAMWpFGq/go-libp2p-peer"
 )

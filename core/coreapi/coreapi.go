@@ -3,10 +3,10 @@ package coreapi
 import (
 	"context"
 
-	core "github.com/ipfs/go-ipfs/core"
-	coreiface "github.com/ipfs/go-ipfs/core/coreapi/interface"
-	ipfspath "github.com/ipfs/go-ipfs/path"
-	uio "github.com/ipfs/go-ipfs/unixfs/io"
+	core "github.com/scroot/go-ipfs/core"
+	coreiface "github.com/scroot/go-ipfs/core/coreapi/interface"
+	ipfspath "github.com/scroot/go-ipfs/path"
+	uio "github.com/scroot/go-ipfs/unixfs/io"
 
 	cid "gx/ipfs/Qma4RJSuh7mMeJQYCqMbKzekn6EwBo7HEs5AQYjVRMQATB/go-cid"
 )

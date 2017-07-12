@@ -4,9 +4,9 @@ import (
 	"testing"
 
 	context "context"
-	"github.com/ipfs/go-ipfs/repo"
-	config "github.com/ipfs/go-ipfs/repo/config"
-	"github.com/ipfs/go-ipfs/thirdparty/testutil"
+	"github.com/scroot/go-ipfs/repo"
+	config "github.com/scroot/go-ipfs/repo/config"
+	"github.com/scroot/go-ipfs/thirdparty/testutil"
 )
 
 func TestInitialization(t *testing.T) {

@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ipfs/go-ipfs/blocks/blockstore"
-	bs "github.com/ipfs/go-ipfs/blockservice"
-	"github.com/ipfs/go-ipfs/exchange/offline"
-	mdag "github.com/ipfs/go-ipfs/merkledag"
+	"github.com/scroot/go-ipfs/blocks/blockstore"
+	bs "github.com/scroot/go-ipfs/blockservice"
+	"github.com/scroot/go-ipfs/exchange/offline"
+	mdag "github.com/scroot/go-ipfs/merkledag"
 
 	ds "gx/ipfs/QmVSase1JP7cq9QkPT46oNwdp9pT6kBkG3oqS14y3QcZjG/go-datastore"
 	dssync "gx/ipfs/QmVSase1JP7cq9QkPT46oNwdp9pT6kBkG3oqS14y3QcZjG/go-datastore/sync"

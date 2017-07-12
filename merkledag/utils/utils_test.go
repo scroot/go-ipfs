@@ -3,9 +3,9 @@ package dagutils
 import (
 	"testing"
 
-	dag "github.com/ipfs/go-ipfs/merkledag"
-	mdtest "github.com/ipfs/go-ipfs/merkledag/test"
-	path "github.com/ipfs/go-ipfs/path"
+	dag "github.com/scroot/go-ipfs/merkledag"
+	mdtest "github.com/scroot/go-ipfs/merkledag/test"
+	path "github.com/scroot/go-ipfs/path"
 
 	context "context"
 	cid "gx/ipfs/Qma4RJSuh7mMeJQYCqMbKzekn6EwBo7HEs5AQYjVRMQATB/go-cid"

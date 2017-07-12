@@ -5,9 +5,9 @@ import (
 	"errors"
 	"fmt"
 
-	bstore "github.com/ipfs/go-ipfs/blocks/blockstore"
-	dag "github.com/ipfs/go-ipfs/merkledag"
-	pin "github.com/ipfs/go-ipfs/pin"
+	bstore "github.com/scroot/go-ipfs/blocks/blockstore"
+	dag "github.com/scroot/go-ipfs/merkledag"
+	pin "github.com/scroot/go-ipfs/pin"
 
 	node "gx/ipfs/QmPAKbSsgEX5B6fpmxa61jXYnoWzZr5sNafd3qgPiSH8Uv/go-ipld-format"
 	cid "gx/ipfs/Qma4RJSuh7mMeJQYCqMbKzekn6EwBo7HEs5AQYjVRMQATB/go-cid"

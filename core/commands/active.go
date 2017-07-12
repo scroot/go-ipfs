@@ -8,7 +8,7 @@ import (
 	"text/tabwriter"
 	"time"
 
-	cmds "github.com/ipfs/go-ipfs/commands"
+	cmds "github.com/scroot/go-ipfs/commands"
 )
 
 var ActiveReqsCmd = &cmds.Command{

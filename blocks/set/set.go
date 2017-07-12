@@ -6,7 +6,7 @@ package set
 import (
 	cid "gx/ipfs/Qma4RJSuh7mMeJQYCqMbKzekn6EwBo7HEs5AQYjVRMQATB/go-cid"
 
-	"github.com/ipfs/go-ipfs/blocks/bloom"
+	"github.com/scroot/go-ipfs/blocks/bloom"
 )
 
 // BlockSet represents a mutable set of blocks CIDs.

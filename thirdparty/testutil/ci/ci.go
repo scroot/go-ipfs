@@ -6,7 +6,7 @@ package ci
 import (
 	"os"
 
-	travis "github.com/ipfs/go-ipfs/thirdparty/testutil/ci/travis"
+	travis "github.com/scroot/go-ipfs/thirdparty/testutil/ci/travis"
 )
 
 // EnvVar is a type to use travis-only env var names with

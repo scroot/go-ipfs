@@ -7,8 +7,8 @@ package mockrouting
 import (
 	"context"
 
-	delay "github.com/ipfs/go-ipfs/thirdparty/delay"
-	"github.com/ipfs/go-ipfs/thirdparty/testutil"
+	delay "github.com/scroot/go-ipfs/thirdparty/delay"
+	"github.com/scroot/go-ipfs/thirdparty/testutil"
 
 	routing "gx/ipfs/QmP1wMAqk6aZYRZirbaAwmrNeqFRgQrwBt3orUtvSa1UYD/go-libp2p-routing"
 	ds "gx/ipfs/QmVSase1JP7cq9QkPT46oNwdp9pT6kBkG3oqS14y3QcZjG/go-datastore"

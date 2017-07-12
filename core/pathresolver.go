@@ -5,8 +5,8 @@ import (
 	"errors"
 	"strings"
 
-	namesys "github.com/ipfs/go-ipfs/namesys"
-	path "github.com/ipfs/go-ipfs/path"
+	namesys "github.com/scroot/go-ipfs/namesys"
+	path "github.com/scroot/go-ipfs/path"
 
 	node "gx/ipfs/QmPAKbSsgEX5B6fpmxa61jXYnoWzZr5sNafd3qgPiSH8Uv/go-ipld-format"
 	cid "gx/ipfs/Qma4RJSuh7mMeJQYCqMbKzekn6EwBo7HEs5AQYjVRMQATB/go-cid"

@@ -7,12 +7,12 @@ import (
 	"fmt"
 	"io"
 
-	chunk "github.com/ipfs/go-ipfs/importer/chunk"
-	help "github.com/ipfs/go-ipfs/importer/helpers"
-	trickle "github.com/ipfs/go-ipfs/importer/trickle"
-	mdag "github.com/ipfs/go-ipfs/merkledag"
-	ft "github.com/ipfs/go-ipfs/unixfs"
-	uio "github.com/ipfs/go-ipfs/unixfs/io"
+	chunk "github.com/scroot/go-ipfs/importer/chunk"
+	help "github.com/scroot/go-ipfs/importer/helpers"
+	trickle "github.com/scroot/go-ipfs/importer/trickle"
+	mdag "github.com/scroot/go-ipfs/merkledag"
+	ft "github.com/scroot/go-ipfs/unixfs"
+	uio "github.com/scroot/go-ipfs/unixfs/io"
 
 	node "gx/ipfs/QmPAKbSsgEX5B6fpmxa61jXYnoWzZr5sNafd3qgPiSH8Uv/go-ipld-format"
 	proto "gx/ipfs/QmZ4Qi3GaRbjcx28Sme5eMH7RQjGkt8wHxt2a65oLaeFEV/gogo-protobuf/proto"

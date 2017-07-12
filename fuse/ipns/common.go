@@ -3,10 +3,10 @@ package ipns
 import (
 	context "context"
 
-	"github.com/ipfs/go-ipfs/core"
-	nsys "github.com/ipfs/go-ipfs/namesys"
-	path "github.com/ipfs/go-ipfs/path"
-	ft "github.com/ipfs/go-ipfs/unixfs"
+	"github.com/scroot/go-ipfs/core"
+	nsys "github.com/scroot/go-ipfs/namesys"
+	path "github.com/scroot/go-ipfs/path"
+	ft "github.com/scroot/go-ipfs/unixfs"
 	ci "gx/ipfs/QmP1DfoUjiWH2ZBo1PBH6FupdBucbDepx3HpWmEY6JMUpY/go-libp2p-crypto"
 )
 

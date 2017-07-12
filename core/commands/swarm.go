@@ -8,11 +8,11 @@ import (
 	"path"
 	"sort"
 
-	cmds "github.com/ipfs/go-ipfs/commands"
-	repo "github.com/ipfs/go-ipfs/repo"
-	config "github.com/ipfs/go-ipfs/repo/config"
-	"github.com/ipfs/go-ipfs/repo/fsrepo"
-	iaddr "github.com/ipfs/go-ipfs/thirdparty/ipfsaddr"
+	cmds "github.com/scroot/go-ipfs/commands"
+	repo "github.com/scroot/go-ipfs/repo"
+	config "github.com/scroot/go-ipfs/repo/config"
+	"github.com/scroot/go-ipfs/repo/fsrepo"
+	iaddr "github.com/scroot/go-ipfs/thirdparty/ipfsaddr"
 	swarm "gx/ipfs/QmVkDnNm71vYyY6s6rXwtmyDYis3WkKyrEhMECwT6R12uJ/go-libp2p-swarm"
 	pstore "gx/ipfs/QmXZSd1qR5BxZkPyuwfT5jpqQFScZccoZvDneXsKzCNHWX/go-libp2p-peerstore"
 

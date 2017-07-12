@@ -11,9 +11,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/ipfs/go-ipfs/commands/files"
-	"github.com/ipfs/go-ipfs/core"
-	"github.com/ipfs/go-ipfs/repo/config"
+	"github.com/scroot/go-ipfs/commands/files"
+	"github.com/scroot/go-ipfs/core"
+	"github.com/scroot/go-ipfs/repo/config"
 	u "gx/ipfs/QmWbjfz3u6HkAdPh34dgPchGbQjob6LXLhAeCGii2TX69n/go-ipfs-util"
 )
 

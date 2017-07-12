@@ -11,12 +11,12 @@ import (
 	"io"
 	"os"
 
-	core "github.com/ipfs/go-ipfs/core"
-	dag "github.com/ipfs/go-ipfs/merkledag"
-	mfs "github.com/ipfs/go-ipfs/mfs"
-	namesys "github.com/ipfs/go-ipfs/namesys"
-	path "github.com/ipfs/go-ipfs/path"
-	ft "github.com/ipfs/go-ipfs/unixfs"
+	core "github.com/scroot/go-ipfs/core"
+	dag "github.com/scroot/go-ipfs/merkledag"
+	mfs "github.com/scroot/go-ipfs/mfs"
+	namesys "github.com/scroot/go-ipfs/namesys"
+	path "github.com/scroot/go-ipfs/path"
+	ft "github.com/scroot/go-ipfs/unixfs"
 
 	ci "gx/ipfs/QmP1DfoUjiWH2ZBo1PBH6FupdBucbDepx3HpWmEY6JMUpY/go-libp2p-crypto"
 	logging "gx/ipfs/QmSpJByNKFX1sCsHBEp3R73FL4NF6FnQTEGyNAXHm2GS52/go-log"

@@ -5,8 +5,8 @@ package offline
 import (
 	"context"
 
-	"github.com/ipfs/go-ipfs/blocks/blockstore"
-	exchange "github.com/ipfs/go-ipfs/exchange"
+	"github.com/scroot/go-ipfs/blocks/blockstore"
+	exchange "github.com/scroot/go-ipfs/exchange"
 	blocks "gx/ipfs/QmXxGS5QsUxpR3iqL5DjmsYPHR1Yz74siRQ4ChJqWFosMh/go-block-format"
 
 	cid "gx/ipfs/Qma4RJSuh7mMeJQYCqMbKzekn6EwBo7HEs5AQYjVRMQATB/go-cid"

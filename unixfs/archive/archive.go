@@ -7,9 +7,9 @@ import (
 	"io"
 	"path"
 
-	mdag "github.com/ipfs/go-ipfs/merkledag"
-	tar "github.com/ipfs/go-ipfs/unixfs/archive/tar"
-	uio "github.com/ipfs/go-ipfs/unixfs/io"
+	mdag "github.com/scroot/go-ipfs/merkledag"
+	tar "github.com/scroot/go-ipfs/unixfs/archive/tar"
+	uio "github.com/scroot/go-ipfs/unixfs/io"
 
 	node "gx/ipfs/QmPAKbSsgEX5B6fpmxa61jXYnoWzZr5sNafd3qgPiSH8Uv/go-ipld-format"
 )

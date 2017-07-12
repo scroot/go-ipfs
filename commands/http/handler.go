@@ -12,8 +12,8 @@ import (
 	"strings"
 	"sync"
 
-	cmds "github.com/ipfs/go-ipfs/commands"
-	"github.com/ipfs/go-ipfs/repo/config"
+	cmds "github.com/scroot/go-ipfs/commands"
+	"github.com/scroot/go-ipfs/repo/config"
 
 	cors "gx/ipfs/QmPG2kW5t27LuHgHnvhUwbHCNHAt2eUcb4gPHqofrESUdB/cors"
 	logging "gx/ipfs/QmSpJByNKFX1sCsHBEp3R73FL4NF6FnQTEGyNAXHm2GS52/go-log"
@@ -405,7 +405,7 @@ func allowOrigin(r *http.Request, cfg *ServerConfig) bool {
 // the API would be vulnerable to. We check that the Referer
 // is allowed by CORS Origin (origins and referrers here will
 // work similarly in the normla uses of the API).
-// See discussion at https://github.com/ipfs/go-ipfs/issues/1532
+// See discussion at https://github.com/scroot/go-ipfs/issues/1532
 func allowReferer(r *http.Request, cfg *ServerConfig) bool {
 	referer := r.Referer()
 

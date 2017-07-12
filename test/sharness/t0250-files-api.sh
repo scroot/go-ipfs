@@ -488,7 +488,7 @@ test_files_api() {
 		verify_dir_contents /
 	'
 
-	# test for https://github.com/ipfs/go-ipfs/issues/2654
+	# test for https://github.com/scroot/go-ipfs/issues/2654
 	test_expect_success "create and remove dir" '
 		ipfs files mkdir /test_dir &&
 		ipfs files rm -r "/test_dir"

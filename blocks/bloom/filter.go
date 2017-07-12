@@ -8,7 +8,7 @@ import (
 	"gx/ipfs/QmeWQMDa5dSdP4n8WDeoY5z8L2EKVqF4ZvK4VEHsLqXsGu/hamming"
 	"hash"
 
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/mtchavez/jenkins"
+	"github.com/scroot/go-ipfs/Godeps/_workspace/src/github.com/mtchavez/jenkins"
 )
 
 // A Filter represents a bloom filter.

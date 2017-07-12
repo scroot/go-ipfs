@@ -9,12 +9,12 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	bstore "github.com/ipfs/go-ipfs/blocks/blockstore"
-	cmds "github.com/ipfs/go-ipfs/commands"
-	corerepo "github.com/ipfs/go-ipfs/core/corerepo"
-	config "github.com/ipfs/go-ipfs/repo/config"
-	fsrepo "github.com/ipfs/go-ipfs/repo/fsrepo"
-	lockfile "github.com/ipfs/go-ipfs/repo/fsrepo/lock"
+	bstore "github.com/scroot/go-ipfs/blocks/blockstore"
+	cmds "github.com/scroot/go-ipfs/commands"
+	corerepo "github.com/scroot/go-ipfs/core/corerepo"
+	config "github.com/scroot/go-ipfs/repo/config"
+	fsrepo "github.com/scroot/go-ipfs/repo/fsrepo"
+	lockfile "github.com/scroot/go-ipfs/repo/fsrepo/lock"
 
 	u "gx/ipfs/QmWbjfz3u6HkAdPh34dgPchGbQjob6LXLhAeCGii2TX69n/go-ipfs-util"
 	cid "gx/ipfs/Qma4RJSuh7mMeJQYCqMbKzekn6EwBo7HEs5AQYjVRMQATB/go-cid"

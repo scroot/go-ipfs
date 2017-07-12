@@ -7,8 +7,8 @@ import (
 	"io/ioutil"
 	"strings"
 
-	util "github.com/ipfs/go-ipfs/blocks/blockstore/util"
-	cmds "github.com/ipfs/go-ipfs/commands"
+	util "github.com/scroot/go-ipfs/blocks/blockstore/util"
+	cmds "github.com/scroot/go-ipfs/commands"
 
 	mh "gx/ipfs/QmVGtdTZdTFaLsaj2RwdVG8jcjNNcp1DE914DKZ2kHmXHw/go-multihash"
 	u "gx/ipfs/QmWbjfz3u6HkAdPh34dgPchGbQjob6LXLhAeCGii2TX69n/go-ipfs-util"

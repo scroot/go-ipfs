@@ -10,8 +10,8 @@ package filestore
 import (
 	"context"
 
-	"github.com/ipfs/go-ipfs/blocks/blockstore"
-	posinfo "github.com/ipfs/go-ipfs/thirdparty/posinfo"
+	"github.com/scroot/go-ipfs/blocks/blockstore"
+	posinfo "github.com/scroot/go-ipfs/thirdparty/posinfo"
 	"gx/ipfs/QmXxGS5QsUxpR3iqL5DjmsYPHR1Yz74siRQ4ChJqWFosMh/go-block-format"
 
 	logging "gx/ipfs/QmSpJByNKFX1sCsHBEp3R73FL4NF6FnQTEGyNAXHm2GS52/go-log"

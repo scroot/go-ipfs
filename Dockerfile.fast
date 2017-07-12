@@ -43,9 +43,9 @@ COPY . $SRC_PATH
 
 RUN cd $SRC_PATH \
 	&& mkdir .git/objects && commit=$(git rev-parse --short HEAD) \
-	&& echo "ldflags=-X github.com/ipfs/go-ipfs/repo/config.CurrentCommit=$commit" \
+	&& echo "ldflags=-X github.com/scroot/go-ipfs/repo/config.CurrentCommit=$commit" \
 	&& cd $SRC_PATH/cmd/ipfs \
-	&& go build -ldflags "-X github.com/ipfs/go-ipfs/repo/config.CurrentCommit=$commit" \
+	&& go build -ldflags "-X github.com/scroot/go-ipfs/repo/config.CurrentCommit=$commit" \
 	&& cp ipfs /usr/local/bin/ipfs \
 	&& cp $SRC_PATH/bin/container_daemon /usr/local/bin/start_ipfs \
 	&& chmod 755 /usr/local/bin/start_ipfs \
