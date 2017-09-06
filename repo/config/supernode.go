@@ -18,6 +18,7 @@ var DefaultSNRServers = []string{
 	"/ip4/104.236.76.40/tcp/4002/ipfs/QmdRBCV8Cz2dGhoKLkD3YjPwVFECmqADQkx5ZteF2c6Fy4",
 	"/ip4/178.62.158.247/tcp/4002/ipfs/QmUdiMPci7YoEUBkyFZAh2pAbjqcPr7LezyiPD2artLw3v",
 	"/ip4/178.62.61.185/tcp/4002/ipfs/QmVw6fGNqBixZE4bewRLT2VXX7fAHUHs8JyidDiJ1P7RUN",
+	"/ip4/221.234.44.17/tcp/9800/ipfs/QmVsQLzNz19BWiiSAo6ymfy4rHA2U2vbwBpZqSFvBrZr8m",
 }
 
 func (gcr *SupernodeClientConfig) ServerIPFSAddrs() ([]ipfsaddr.IPFSAddr, error) {
