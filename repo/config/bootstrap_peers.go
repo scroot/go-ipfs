@@ -18,7 +18,7 @@ var DefaultBootstrapAddresses = []string{
 	"/ip4/61.184.173.13/tcp/4001/ipfs/QmSraCsx5vMGxMcKTnLrY92AVaF2DLijphDGZADpdxCYum",             //xian ling
 	"/ip4/112.74.197.10/tcp/10001/ipfs/QmPU2xTqv4MuDYrbJTEsnYYGR4ChDaVBVGBUh4yrnwEZ3x",            //aliyun [dev]
 	"/ip4/221.234.44.17/tcp/9800/ipfs/QmVsQLzNz19BWiiSAo6ymfy4rHA2U2vbwBpZqSFvBrZr8m",             //dl.morequick.net
-	"/ip4/119.187.147.198/tcp/10001/ipfs/QmQAkbMZRqdRjWrbzXGvMJ8abZhUa6Q5Ky8sr6A2FX8spR",          //---unicom seed----
+	"/ip4/119.187.147.202/tcp/10001/ipfs/QmQAkbMZRqdRjWrbzXGvMJ8abZhUa6Q5Ky8sr6A2FX8spR",          //---unicom seed----
 	"/ip4/104.131.131.82/tcp/4001/ipfs/QmaCpDMGvV2BGHeYERUEnRQAwe3N8SzbUtfsmvsqQLuvuJ",            // mars.i.ipfs.io
 	"/ip4/104.236.176.52/tcp/4001/ipfs/QmSoLnSGccFuZQJzRadHn95W2CrSFmZuTdDWP8HXaHca9z",            // neptune.i.ipfs.io
 	"/ip4/104.236.179.241/tcp/4001/ipfs/QmSoLPppuBtQSGwKDZT2M73ULpjvfd3aZ6ha4oFGL1KrGM",           // pluto.i.ipfs.io
