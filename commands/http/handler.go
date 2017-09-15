@@ -148,13 +148,13 @@ func (i internalHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 			cancel()
 		}()
 	}
-
-	if !allowOrigin(r, i.cfg) || !allowReferer(r, i.cfg) {
-		w.WriteHeader(http.StatusForbidden)
-		w.Write([]byte("403 - Forbidden"))
-		log.Warningf("API blocked request to %s. (possible CSRF)", r.URL)
-		return
-	}
+	/*
+		if !allowOrigin(r, i.cfg) || !allowReferer(r, i.cfg) {
+			w.WriteHeader(http.StatusForbidden)
+			w.Write([]byte("403 - Forbidden"))
+			log.Warningf("API blocked request to %s. (possible CSRF)", r.URL)
+			return
+		}*/
 
 	req, err := Parse(r, i.root)
 	if err != nil {
